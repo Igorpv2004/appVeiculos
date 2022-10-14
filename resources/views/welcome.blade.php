@@ -6,7 +6,8 @@
 
         <title>Laravel</title>
 
-        <h1>Vamos aprender laravel</h1>
+    <h1> Vamos aprender Laravel </h1>
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 

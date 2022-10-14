@@ -1,8 +1,8 @@
 @extends('padrao')
 @section('content')
 <section>
-<div class="container cadastroCaminhao">
-<form class="row g-3" method="post" action="{{route('salvar-banco')}}">
+<div class="container cadastroCarro">
+<form class="row g-3" method="post" action="{{route('salvar-banco-carro')}}">
   @csrf
   <div class="col-md-12">
     <label for="inputModelo" class="form-label">Modelo</label>
@@ -15,7 +15,7 @@
   
   <div class="col-12">
     <label for="inputMarca" class="form-label">Marca</label>
-    <input type="text" name="marca" value="{{old('marca')}}" class="form-control" id="inputMarca" placeholder="BMW">
+    <input type="text" name="marca" value="{{old('marca')}}" class="form-control" id="inputMarca" placeholder="Chevrolet">
     @error('marca')
     <div class="fw-bolder">*Preencher o campo marca. </div>
     @enderror('marca')  

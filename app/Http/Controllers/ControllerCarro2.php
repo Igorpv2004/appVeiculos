@@ -4,12 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class ControllerCarro2 extends Controller
 {
     public function mostrar()
     {
-        return view('home');            
+        return view('listarCarro2');            
     }
 }
-
-

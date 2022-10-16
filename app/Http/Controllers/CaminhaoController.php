@@ -16,6 +16,12 @@ class CaminhaoController extends Controller
         return view('editarCaminhao');
     }
 
+    public function Lista(){
+        return view('listarCaminhao');
+    }
+
+
+
     public function SalvarBanco(Request $request){
 
     $dadosCaminhao = $request->validate([

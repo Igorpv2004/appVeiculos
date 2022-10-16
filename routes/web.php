@@ -8,6 +8,7 @@ use App\Http\Controllers\CadastrarCaminhaoController;
 use App\Http\Controllers\motoController;
 use App\Http\Controllers\ControllerCarro2;
 use App\Http\Controllers\CarrosController;
+use App\Http\Controllers\MotosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,6 +47,14 @@ Route::get('/cadastrarCarro',[CarrosController::class,'FormularioCadastroCarro']
 Route::get('/editarCarro',[CarrosController::class,'EditarCarro'])->name('editar-carro');
 
 Route::post('/cadastrarCarro',[CarrosController::class,'SalvarBancoCarro'])->name('salvar-banco-carro');
+
+Route::get('/listarCaminhao',[CaminhaoController::class,'Lista']);
+
+Route::post('/cadastrarMoto',[MotosController::class,'SalvarBancoMoto'])->name('salvar-banco-moto');
+
+Route::get('/cadastrarMoto',[MotosController::class,'FormularioCadastroMoto'])->name('cadastrar-moto');
+
+
 
 
 

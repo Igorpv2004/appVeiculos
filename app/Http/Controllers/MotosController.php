@@ -12,6 +12,11 @@ class MotosController extends Controller
         return view('cadastrarMoto');
     }
 
+    public function MostrarEditarMoto(){
+
+        $dadosMotos = Motos::all();
+        return view('editarMoto',['registrosMotos' => $dadosMotos]);
+    }
     
     public function SalvarBancoMoto(Request $request){
 

@@ -31,7 +31,7 @@
       <div class="card-body">
         <h5 class="card-title">Caminhões</h5>
         <p class="card-text">Encontre aqui os melhores Caminhões com os melhores preços no mercado!</p>
-        <a class="btn btn-outline-warning" href="listarCarro" role="button">Acesse Aqui!</a>
+        <a class="btn btn-outline-warning" href="listarCaminhao" role="button">Acesse Aqui!</a>
       </div>
     </div>
   </div>

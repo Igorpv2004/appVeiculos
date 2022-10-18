@@ -6,7 +6,7 @@
 
 <div class="row center">
   <div class="col">
-    <input type="text" class="form-control" placeholder="Digite a Marca do Caminhão" aria-label="First name">
+    <input type="text" class="form-control" placeholder="Digite a Marca da Moto" aria-label="First name">
   </div>
 
   <div class="col">
@@ -30,12 +30,12 @@
     </tr>
   </thead>
   <tbody>
-    @foreach($registrosCaminhao as $registrosCaminhoes)
+    @foreach($registrosMotos as $registroMoto)
     <tr>
-      <th scope="row">{{$registrosCaminhoes->id}}</th>
-      <td>{{$registrosCaminhoes->modelo}}</td>
-      <td>{{$registrosCaminhoes->marca}}</td>
-      <td>{{$registrosCaminhoes->ano}}</td>
+      <th scope="row">{{$registroMoto->id}}</th>
+      <td>{{$registroMoto->modelo}}</td>
+      <td>{{$registroMoto->marca}}</td>
+      <td>{{$registroMoto->ano}}</td>
       <td>
             <button type="button" class="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
@@ -56,7 +56,6 @@
     </tr>
     @endforeach
   </tbody>
-
 </table>
 
 </section>

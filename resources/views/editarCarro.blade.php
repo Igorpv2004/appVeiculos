@@ -30,11 +30,12 @@
     </tr>
   </thead>
   <tbody>
+  @foreach($registrosCarros as $registroCarro)
     <tr>
-      <th scope="row">1</th>
-      <td>Serie 745LE</td>
-      <td>Ferrari</td>
-      <td>2022</td>
+      <th scope="row">{{$registroCarro->id}}</th>
+      <td>{{$registroCarro->modelo}}</td>
+      <td>{{$registroCarro->marca}}</td>
+      <td>{{$registroCarro->ano}}</td>
       <td>
             <button type="button" class="btn btn-primary">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
@@ -53,6 +54,7 @@
              </button>
       </td>
     </tr>
+    @endforeach
   </tbody>
 </table>
 

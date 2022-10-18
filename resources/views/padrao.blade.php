@@ -31,6 +31,7 @@
             <li><a class="dropdown-item" href="listarCarro2">Carros De Luxo</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="cadastrarCarro">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="editarCarro">Editar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -54,7 +55,7 @@
             <li><a class="dropdown-item" href="listarMotos">Motos Esportivas</a></li>
             <li><a class="dropdown-item" href="cadastrarMoto">Cadastrar</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="editarMoto">Editar</a></li>
 
             
           </ul>

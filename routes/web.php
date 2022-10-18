@@ -28,7 +28,7 @@ Route::get('/', function () {
 
 Route::get('/home',[HomeController::class,'mostrar'])->name('home');
 
-Route::get('/editarCaminhao',[CaminhaoController::class,'Editar'])->name('editar-caminhao');
+Route::get('/editarCaminhao',[CaminhaoController::class,'MostrarEditarCaminhao'])->name('editar-caminhao');
 
 Route::get('/cadastrarCaminhao',[CaminhaoController::class,'FormularioCadastro'])->name('cadastrar-caminhao');
 
@@ -44,7 +44,7 @@ Route::get('/listarCarro',[listarCarro::class,'lista']);
 
 Route::get('/cadastrarCarro',[CarrosController::class,'FormularioCadastroCarro'])->name('cadastrar-carro');
 
-Route::get('/editarCarro',[CarrosController::class,'EditarCarro'])->name('editar-carro');
+Route::get('/editarCarro',[CarrosController::class,'MostrarEditarCarro'])->name('editar-carro');
 
 Route::post('/cadastrarCarro',[CarrosController::class,'SalvarBancoCarro'])->name('salvar-banco-carro');
 
@@ -53,6 +53,9 @@ Route::get('/listarCaminhao',[CaminhaoController::class,'Lista']);
 Route::post('/cadastrarMoto',[MotosController::class,'SalvarBancoMoto'])->name('salvar-banco-moto');
 
 Route::get('/cadastrarMoto',[MotosController::class,'FormularioCadastroMoto'])->name('cadastrar-moto');
+
+Route::get('/editarMoto',[MotosController::class,'MostrarEditarMoto'])->name('editar-moto');
+
 
 
 

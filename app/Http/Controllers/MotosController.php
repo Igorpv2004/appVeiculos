@@ -35,4 +35,14 @@ class MotosController extends Controller
     
     
         }
+        public function apagarMotos(Motos $registroMoto){
+        
+            //dd($registrosCaminhoes);
+            $registroMoto->delete();
+    
+    
+            return Redirect::route('editar-moto');
+        }
+
+
 }

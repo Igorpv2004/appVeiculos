@@ -56,6 +56,12 @@ Route::get('/cadastrarMoto',[MotosController::class,'FormularioCadastroMoto'])->
 
 Route::get('/editarMoto',[MotosController::class,'MostrarEditarMoto'])->name('editar-moto');
 
+Route::delete('/editarCaminhao/{registrosCaminhoes}',[CaminhaoController::class,'apagarCaminhao'])->name('apagar-caminhao');
+
+Route::delete('/editarMoto/{$registroMoto}',[MotosController::class,'apagarMotos'])->name('apagar-moto');
+
+Route::get('/alterarCaminhao',[CaminhaoController::class,'MostrarAlterarCaminhao'])->name('alterar-caminhao');
+
 
 
 

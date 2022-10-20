@@ -34,4 +34,13 @@ class CarrosController extends Controller
     
     
         }
+
+        public function apagarCarro(Carros $registroCarro){
+        
+            //dd($registrosCaminhoes);
+            $registroCarro->delete();
+    
+    
+            return Redirect::route('editar-carro');
+        }
 }

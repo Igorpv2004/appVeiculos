@@ -47,7 +47,7 @@
 
       <td>
 
-      <form method="Post" Action="{{route('apagar-moto', $registroMoto->id)}}">
+        <form method="Post" Action="{{route('apagar-moto', $registroMoto->id)}}">
         @method('delete')
         @csrf
              <button type="submit" class="btn btn-danger">

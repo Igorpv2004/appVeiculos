@@ -60,7 +60,7 @@ Route::delete('/editarCaminhao/{registrosCaminhoes}',[CaminhaoController::class,
 
 Route::delete('/editarMoto/{registroMoto}',[MotosController::class,'apagarMotos'])->name('apagar-moto');
 
-Route::get('/alterarCaminhao',[CaminhaoController::class,'MostrarAlterarCaminhao'])->name('alterar-caminhao');
+Route::get('/alterarCaminhao/{registrosCaminhoes}',[CaminhaoController::class,'MostrarAlterarCaminhao'])->name('alterar-caminhao');
 
 Route::delete('/editarCarro/{registroCarro}',[CarrosController::class,'apagarCarro'])->name('apagar-carro');
 

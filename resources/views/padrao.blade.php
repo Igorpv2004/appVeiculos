@@ -31,7 +31,7 @@
             <li><a class="dropdown-item" href="listarCarro2">Carros De Luxo</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="cadastrarCarro">Cadastrar</a></li>
-            <li><a class="dropdown-item" href="editarCarro">Editar</a></li>
+            <li><a class="dropdown-item" href="editarCarro">Gerenciar</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -40,9 +40,9 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="listarCaminhao">Lista de Caminhões</a></li>
-            <li><a class="dropdown-item" href="editarCaminhao">Editar</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="cadastrarCaminhao">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="editarCaminhao">Gerenciar</a></li>
 
             
           </ul>
@@ -53,9 +53,10 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="listarMotos">Motos Esportivas</a></li>
-            <li><a class="dropdown-item" href="cadastrarMoto">Cadastrar</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="editarMoto">Editar</a></li>
+            <li><a class="dropdown-item" href="cadastrarMoto">Cadastrar</a></li>
+            <li><a class="dropdown-item" href="editarMoto">Gerenciar</a></li>
+            
 
             
           </ul>

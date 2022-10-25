@@ -16,4 +16,33 @@ body{
 .container-fluid{
     background-color: orange;
 }
+ 
+.altura{
+    width: 100%;
+    min-height: 100vh;
+}
 
+.moto1{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.carro1{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.editarcarro{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.editarmoto{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.editarcaminhao{
+    width: 100%;
+    min-height: 100vh;
+}

@@ -1,8 +1,17 @@
 @extends('padrao')
 @section('content')
-<section>
+<section class="moto1">
 <div class="container cadastroMoto">
 <form class="row g-3" method="post" action="{{route('salvar-banco-moto')}}">
+<h1></h1>
+<h1></h1>
+<h1></h1>
+<h1></h1>
+<h1></h1>
+<h1></h1>
+<div class="text-center">
+<h1>Tela de Cadastro</h1>
+</div>
   @csrf
   <div class="col-md-12">
     <label for="inputModelo" class="form-label">Modelo</label>

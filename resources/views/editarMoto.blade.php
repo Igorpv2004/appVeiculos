@@ -1,6 +1,6 @@
 @extends('padrao')
 @section('content')
-<section class="container m-5">
+<section class="editarmoto">
 
 <div class="container m-5" >
 

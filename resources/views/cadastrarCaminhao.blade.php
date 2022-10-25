@@ -1,8 +1,18 @@
 @extends('padrao')
 @section('content')
-<section>
+<section class="altura">
 <div class="container cadastroCaminhao">
 <form class="row g-3" method="post" action="{{route('salvar-banco')}}">
+<h1></h1>
+<h1></h1>
+<h1></h1>
+<h1></h1>
+<h1></h1>
+<h1></h1>
+<div class="text-center">
+<h1>Tela de Cadastro</h1>
+</div>
+
   @csrf
   <div class="col-md-12">
     <label for="inputModelo" class="form-label">Modelo</label>
@@ -42,6 +52,7 @@
     <div class="fw-bolder">*Preencher o campo cor. </div>
     @enderror('valor') 
   </div>
+  
   
   <div class="col-12">
     <button type="submit" class="btn btn-primary">Cadastrar</button>

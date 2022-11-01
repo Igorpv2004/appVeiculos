@@ -44,5 +44,24 @@ class MotosController extends Controller
             return Redirect::route('editar-moto');
         }
 
+        public function AlterarBancoMoto(Caminhao $registroMoto, Request $request){
+
+            $banco = $request->validate([
+            'modelo' => 'string|required',
+            'marca' => 'string|required',
+            'ano' => 'string|required',
+            'cor' => 'string|required',
+            'valor' => 'string|required'
+    
+            ]);
+    
+            $registroMoto->fill($banco);
+            $registroMoto->save();
+    
+            //dd($registrosCaminhoes);
+    
+            return Redirect::route('editar-moto');
+        }
+
 
 }

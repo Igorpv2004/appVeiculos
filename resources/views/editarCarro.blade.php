@@ -7,15 +7,15 @@
 
 <div class="row center">
   <div class="col">
-    <input type="text" class="form-control" placeholder="Digite a Marca do Carro" aria-label="First name">
+    <input type="text" id="marca" name="marca" class="form-control" placeholder="Digite a Marca do Carro" aria-label="First name">
   </div>
 
   <div class="col">
-  <button type="button" class="btn btn-info">Buscar</button>
+  <button type="submit" class="btn btn-info">Buscar</button>
   </div>
 </div>
 
-
+</form>
 </div>
 
 

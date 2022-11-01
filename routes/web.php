@@ -70,6 +70,8 @@ Route::put('/editarCaminhao/{registrosCaminhoes}',[CaminhaoController::class,'Al
 
 Route::put('/editarCarro/{registroCarro}',[CarrosController::class,'AlterarBancoCarro'])->name('alterar-banco-carro');
 
+Route::put('/editarMoto/{$registroMoto}',[MotosController::class,'AlterarBancoMoto'])->name('alterar-banco-moto');
+
 
 
 
